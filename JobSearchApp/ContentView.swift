@@ -21,7 +21,6 @@ struct ContentView: View {
                     Label("Tracker", systemImage: "checklist")
                 }
         }
-        // 🔥 КЛЮЧЕВОЕ МЕСТО
         .toolbarBackground(.visible, for: .tabBar)
         .toolbarBackground(Color.white, for: .tabBar)
 
