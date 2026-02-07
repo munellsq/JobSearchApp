@@ -9,7 +9,6 @@ struct JobSearchAppApp: App {
         appearance.backgroundColor = UIColor.white
         appearance.shadowColor = UIColor.black.withAlphaComponent(0.12)
 
-        // (необязательно, но красиво)
         appearance.stackedLayoutAppearance.normal.iconColor = UIColor.gray
         appearance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.gray]
         appearance.stackedLayoutAppearance.selected.iconColor = UIColor.systemOrange
