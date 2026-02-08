@@ -62,37 +62,39 @@ This project is deployed as a production-ready iOS application.
 
 ## Project Structure
 
+```
 JobSearchApp/
-├── JobSearchAppApp.swift # App entry point
-├── ContentView.swift # Root TabView
+├── JobSearchAppApp.swift
+├── ContentView.swift
 │
 ├── Models/
-│ ├── Application.swift
-│ ├── FavoriteJob.swift
-│ └── RemotiveDTO.swift
+│   ├── Application.swift
+│   ├── FavoriteJob.swift
+│   └── RemotiveDTO.swift
 │
 ├── Networking/
-│ ├── JobsAPI.swift
-│ └── RemotiveAPI.swift
+│   ├── JobsAPI.swift
+│   └── RemotiveAPI.swift
 │
 ├── Services/
-│ ├── ApplicationsStore.swift
-│ └── FavoritesStore.swift
+│   ├── ApplicationsStore.swift
+│   └── FavoritesStore.swift
 │
 ├── ViewModels/
-│ └── JobsViewModel.swift
+│   └── JobsViewModel.swift
 │
 ├── Views/
-│ ├── JobsListView.swift
-│ ├── JobDetailsView.swift
-│ ├── FavoritesView.swift
-│ ├── ApplicationsView.swift
-│ ├── ApplicationDetailView.swift
-│ └── UIComponents.swift
+│   ├── JobsListView.swift
+│   ├── JobDetailsView.swift
+│   ├── FavoritesView.swift
+│   ├── ApplicationsView.swift
+│   ├── ApplicationDetailView.swift
+│   └── UIComponents.swift
 │
 ├── Assets.xcassets
 └── JobSearchAppTests/
-└── JobSearchAppTests.swift
+    └── JobSearchAppTests.swift
+```
 
 ---
 
