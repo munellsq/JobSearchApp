@@ -8,7 +8,7 @@ struct AppBackground: View {
     }
 }
 
-// MARK: - REUSABLE WHITE SHEET CONTAINER (единый "лист" для всех экранов)
+// MARK: - REUSABLE WHITE SHEET CONTAINER
 struct SheetContainer<Content: View>: View {
     let content: Content
 
@@ -67,7 +67,6 @@ struct StickyTopBar: View {
                         .clipShape(Circle())
                 }
 
-                // белая кнопка фильтра
                 Button {
                     showCategorySheet = true
                 } label: {
@@ -115,7 +114,7 @@ struct StickyTopBar: View {
             CategoryPickerSheet(categories: categories, selected: selectedCategory)
                 .presentationDetents([.medium])
                 .presentationDragIndicator(.visible)
-                .presentationBackground(.white) // ✅ белый фон шита
+                .presentationBackground(.white)
         }
     }
 }
