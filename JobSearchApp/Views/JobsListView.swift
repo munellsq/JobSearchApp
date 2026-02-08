@@ -19,7 +19,7 @@ struct JobsListView: View {
                     onSearchSubmit: { Task { await vm.search() } },
                     categories: vm.categories,
                     selectedCategory: $vm.selectedCategory,
-                    onRefresh: { Task { await vm.refresh() } } // простой refresh
+                    onRefresh: { Task { await vm.refresh() } }
                 )
             }
             .toolbar(.hidden, for: .navigationBar)
